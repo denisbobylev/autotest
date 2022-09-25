@@ -10,4 +10,4 @@ UserGeneration.java
 
 StudentRegistration.java
 
-Для данного теста требуется прописать путь в файле app.properties для переменной user_dir, 
+Для данного теста требуется прописать путь в файле app.properties для переменной user_dir
