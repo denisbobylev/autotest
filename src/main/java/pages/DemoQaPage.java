@@ -121,7 +121,7 @@ public class DemoQaPage extends BasePage {
     }
 
     public DemoQaPage clickSubmitButtonForFailed() {
-        submitButton.click();
+        waitForVisible(submitButton,10).submit();
         return this;
     }
     public DemoQaPageModal clickSubmitButton() {
