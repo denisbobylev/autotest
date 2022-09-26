@@ -27,7 +27,7 @@ public class DemoQaPage extends BasePage {
     private List<WebElement> hobbiesInput;
     @FindBy (xpath = "//input[@id='userNumber']")
     private WebElement mobilePhoneInput;
-    @FindBy (xpath = "//input[@placeholder='Mobile Number']")
+    @FindBy (xpath = "//input[@placeholder='Current Addres']")
     private WebElement currentAddressInput;
     @FindBy (xpath = "//div[@id='stateCity-wrapper']//div[text()='Select State']")
     private WebElement stateMenu;
